@@ -1,4 +1,4 @@
-# ⚠️ Case Study Notes
+# ⚠️ Case Study
 
 This project is a study case built while learning NestJS fundamentals.
 
