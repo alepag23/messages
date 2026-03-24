@@ -5,12 +5,9 @@ import { MessagesService } from './messages.service';
 
 @Controller("messages")
 export class MessagesController {
-    messagesService: MessagesService;
 
-    constructor() {
-        // DONT DO THIS ON REAL APPS
-        // USE DEPENDENCY INJECTION
-        this.messagesService = new MessagesService;
+
+    constructor(public messagesService: MessagesService) {
     }
 
     @Get()
